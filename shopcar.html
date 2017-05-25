@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="author" content="张晨光"/>
+		<meta name="Keywords" content="购物，个人，美好的事情"/>
+		<meta name="Description" content="这是一个关于购物，关于好看好玩的网页"/>
+		<link rel="stylesheet" type="text/css" href="stylesheets/shopcar.css"/>
+		<title>购物车</title>
+	</head>
+	<body>
+		<!--头部开始-->
+		<header>
+			<h1>购物车</h1>
+			<a href="myshow.html" class="iconfont icon">&#xe6e3;</a>
+			<a href="login.html" class="total">结算</a>
+		</header>
+		<!--头部结束-->
+		<!--主要内容区开始-->
+		<div class="S_container container">
+			<div class="main">
+				<!--商品区开始-->
+				<div class="goodslist">
+					<div class="goods"></div>
+				</div>
+				<!--商品区结束-->
+			</div>
+			<!--商品的头部-->
+			<div class="header"><span class="num">商品数量:<span class="totalNum">0</span></span></span><span class="total">应付总额（不含运费):￥<span class="totalMoney">0</span></span></div>
+			<!--提示信息开始-->
+			<div class="tips">
+				<p>空空如野~~~</p>
+				<img src="img/shopcar.jpg" width="100%"/>
+				<div class="toHome"><a href="home.html">去逛逛</a></div>
+			</div>
+			<!--提示信息结束-->
+		</div>
+		<!--主要内容区结束-->
+		<!--底部开始-->
+		<footer>
+			<dl>
+				<dt><i class="iconfont">&#xe750;</i></dt>
+				<dd><a href="home.html">首页</a></dd>
+			</dl>
+			<dl>
+				<dt><i class="iconfont">&#xe78e;</i></dt>
+				<dd><a href="list.html">分类</a></dd>
+			</dl>
+			<dl  class="active">
+				<dt><i class="iconfont">&#xe73c;</i></dt>
+				<dd><a href="shopcar.html">购物车</a></dd>
+			</dl>
+			<dl>
+				<dt><i class="iconfont">&#xe75d;</i></dt>
+				<dd><a href="myshow.html">我的秀</a></dd>
+			</dl>
+			<dl>
+				<dt><i class="iconfont">&#xe7bc;</i></dt>
+				<dd><a href="more.html">更多</a></dd>
+			</dl>
+		</footer>
+		<input type="hidden" name="page" id="page" value="1" />
+		<!--底部结束-->
+		<script src="js/lib/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lib/iscroll-min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/shopcar.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
+

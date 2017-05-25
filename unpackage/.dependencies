@@ -1,0 +1,56 @@
+{
+  "more.html": {
+    "href": "more.html",
+    "resources": [],
+    "refer": [],
+    "priority": 6
+  },
+  "list.html": {
+    "href": "list.html",
+    "resources": [],
+    "refer": [],
+    "priority": 2
+  },
+  "register.html": {
+    "href": "register.html",
+    "resources": [],
+    "refer": [],
+    "priority": 5
+  },
+  "myshow.html": {
+    "href": "myshow.html",
+    "resources": [],
+    "refer": [],
+    "priority": 0
+  },
+  "login.html": {
+    "href": "login.html",
+    "resources": [],
+    "refer": [],
+    "priority": 0
+  },
+  "shopcar.html": {
+    "href": "shopcar.html",
+    "resources": [],
+    "refer": [],
+    "priority": 0
+  },
+  "detail.html": {
+    "href": "detail.html",
+    "resources": [],
+    "refer": [],
+    "priority": 0
+  },
+  "home.html": {
+    "href": "home.html",
+    "resources": [],
+    "refer": [],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [],
+    "refer": [],
+    "priority": 0
+  }
+}

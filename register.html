@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="author" content="张晨光"/>
+		<meta name="Keywords" content="购物，个人，美好的事情"/>
+		<meta name="Description" content="这是一个关于购物，关于好看好玩的网页"/>
+		<link rel="stylesheet" type="text/css" href="stylesheets/register.css"/>
+		<title>register</title>
+	</head>
+	<body>
+		<!--头部开始-->
+		<header>
+			<h1>注册</h1>
+			<a href="myshow.html" class="iconfont icon">&#xe6e3;</a>
+			<a href="login.html" class="login">登录</a>
+		</header>
+		<!--底部结束-->
+		<!--主要内容区开始-->
+		<div class="R_container container">
+			<div class="main">
+				<div class="register-item">
+					<input type="text" id="username" placeholder="账号" autocomplete="off" />
+					<p>*账号已被注册</p>
+				</div>
+				<div class="register-item">
+					<input type="password" id="psw" placeholder="密码" autocomplete="off" />
+					<p>*密码格式有误，必须数字字母</p>
+				</div>
+				<div class="register-item">
+					<input type="password" id="repsw" placeholder="重复密码" autocomplete="off" />
+					<p>*前后密码不一致</p>
+				</div>
+				<div class="register-item">
+					<input type="button" id="accept" class="accept" value="同意服务协议并注册"/>
+				</div>
+			</div>
+			<!--提示信息开始-->
+			<div class="tips">
+				<div class="main">
+					<div class="tit"><span>提示</span><span class="close">&times;</span></div>
+					<div class="content">
+						<p id="tips-con"></p>
+						<span class="rollboxTop"></span>
+						<span class="rollboxLeft"></span>
+						<span class="rollboxRight"></span>
+						<span class="rollboxBottom"></span>
+					</div>
+				</div>
+			</div>
+			<!--提示信息结束-->
+		</div>
+		<!--主要内容区结束-->
+		<!--遮盖层开始-->
+			<div class="shadow"></div>
+		<!--遮盖层结束-->
+		<!--底部开始-->
+		<footer>
+			<dl>
+				<dt><i class="iconfont">&#xe750;</i></dt>
+				<dd><a href="home.html">首页</a></dd>
+			</dl>
+			<dl>
+				<dt><i class="iconfont">&#xe78e;</i></dt>
+				<dd><a href="list.html">分类</a></dd>
+			</dl>
+			<dl>
+				<dt><i class="iconfont">&#xe73c;</i></dt>
+				<dd><a href="shopcar.html">购物车</a></dd>
+			</dl>
+			<dl class="active">
+				<dt><i class="iconfont">&#xe75d;</i></dt>
+				<dd><a href="myshow.html">我的秀</a></dd>
+			</dl>
+			<dl>
+				<dt><i class="iconfont">&#xe7bc;</i></dt>
+				<dd><a href="more.html">更多</a></dd>
+			</dl>
+		</footer>
+		<input type="hidden" name="page" id="page" value="1" />
+		<!--底部结束-->
+		<script src="js/lib/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

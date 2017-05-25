@@ -1,0 +1,175 @@
+/* line 5, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* line 34, ../sass/_base.scss */
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 35, ../sass/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 36, ../sass/_base.scss */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+}
+
+/* line 41, ../sass/_base.scss */
+.container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/iconfont.eot");
+  src: url("../fonts/iconfont.eot?#iefix") format("embedded-opentype"), url("../fonts/iconfont.woff") format("woff"), url("../fonts/iconfont.ttf") format("truetype"), url("../fonts/iconfont.svg#iconfont") format("svg");
+}
+/* line 56, ../sass/_base.scss */
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 15, ../sass/index.scss */
+.I_container, .I_container .swiper-container .swiper-wrapper, .I_container .swiper-container .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+/* line 18, ../sass/index.scss */
+.I_container .swiper-container, .I_container .swiper-container .swiper-wrapper .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+/* line 23, ../sass/index.scss */
+.I_container .swiper-container .swiper-wrapper .swiper-slide {
+  background: url("../img/b1.jpg") center no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+/* line 27, ../sass/index.scss */
+.I_container .swiper-container .swiper-wrapper .swiper-slide p {
+  position: absolute;
+  font-size: 1.25rem;
+}
+/* line 31, ../sass/index.scss */
+.I_container .swiper-container .swiper-wrapper .swiper-slide .index1 {
+  left: 5%;
+  top: 40%;
+  color: darkviolet;
+}
+/* line 36, ../sass/index.scss */
+.I_container .swiper-container .swiper-wrapper .swiper-slide .index2-l {
+  left: 5%;
+  bottom: 20%;
+  color: darkslategrey;
+}
+/* line 41, ../sass/index.scss */
+.I_container .swiper-container .swiper-wrapper .swiper-slide .index2-r {
+  right: 5%;
+  top: 20%;
+  color: lightseagreen;
+}
+/* line 46, ../sass/index.scss */
+.I_container .swiper-container .swiper-wrapper .swiper-slide .index3 {
+  left: 10%;
+  top: 40%;
+}
+/* line 51, ../sass/index.scss */
+.I_container .swiper-container .swiper-wrapper .swiper-slide .index3 a {
+  color: #FFFFFF;
+  font-style: 900;
+  font-size: 1.875rem;
+}
+/* line 60, ../sass/index.scss */
+.I_container .swiper-container .swiper-wrapper .swiper-slide:nth-of-type(1) {
+  background-image: url("../img/b1.jpg");
+}
+/* line 60, ../sass/index.scss */
+.I_container .swiper-container .swiper-wrapper .swiper-slide:nth-of-type(2) {
+  background-image: url("../img/b2.jpg");
+}
+/* line 60, ../sass/index.scss */
+.I_container .swiper-container .swiper-wrapper .swiper-slide:nth-of-type(3) {
+  background-image: url("../img/b3.jpg");
+}

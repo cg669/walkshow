@@ -1,0 +1,400 @@
+/* line 5, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* line 34, ../sass/_base.scss */
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 35, ../sass/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 36, ../sass/_base.scss */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+}
+
+/* line 41, ../sass/_base.scss */
+.container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/iconfont.eot");
+  src: url("../fonts/iconfont.eot?#iefix") format("embedded-opentype"), url("../fonts/iconfont.woff") format("woff"), url("../fonts/iconfont.ttf") format("truetype"), url("../fonts/iconfont.svg#iconfont") format("svg");
+}
+/* line 56, ../sass/_base.scss */
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 1, ../sass/_header.scss */
+header {
+  position: relative;
+  height: 2.75rem;
+  width: 100%;
+  line-height: 2.75rem;
+  text-align: center;
+  color: white;
+  background-color: #e4366b;
+}
+/* line 11, ../sass/_header.scss */
+header h1 {
+  width: 7.5rem;
+  height: 2.75rem;
+  margin: 0 auto;
+  font-size: 1.19rem;
+}
+/* line 16, ../sass/_header.scss */
+header h1 span {
+  float: left;
+  font-size: 0.875rem;
+}
+/* line 21, ../sass/_header.scss */
+header .icon {
+  position: absolute;
+  left: 5%;
+  top: 0;
+  color: #000000;
+}
+
+/* line 1, ../sass/_footer.scss */
+footer {
+  width: 100%;
+  height: 3.06rem;
+  border-top: 1px solid #ffffff;
+  background-color: #484850;
+}
+/* line 10, ../sass/_footer.scss */
+footer dl {
+  float: left;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  border-top: 0.156rem solid #484850;
+  color: #FFFFFF;
+}
+/* line 17, ../sass/_footer.scss */
+footer dl dt {
+  font-size: 1.5rem;
+  height: 50%;
+  line-height: 1.53rem;
+}
+/* line 23, ../sass/_footer.scss */
+footer dl dd a {
+  color: #FFFFFF;
+  font-size: 0.6875rem;
+}
+/* line 29, ../sass/_footer.scss */
+footer .active {
+  border-top-color: #e4366b;
+}
+
+/* line 9, ../sass/home.scss */
+.H_container .main .search {
+  position: relative;
+  width: 100%;
+  height: 2.72rem;
+  background-color: #52525a;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #333333;
+}
+/* line 18, ../sass/home.scss */
+.H_container .main .search .search-con {
+  width: 90%;
+  height: 1.78rem;
+  line-height: 1.78rem;
+  margin: 0.47rem auto;
+  background-color: white;
+  -moz-border-radius: 0.89rem;
+  -webkit-border-radius: 0.89rem;
+  border-radius: 0.89rem;
+}
+/* line 25, ../sass/home.scss */
+.H_container .main .search .search-con .search-btn {
+  display: block;
+  position: absolute;
+  left: 10%;
+  height: 100%;
+  font-size: 1.19rem;
+}
+/* line 32, ../sass/home.scss */
+.H_container .main .search .search-con .search-txt {
+  padding-left: 2.31rem;
+  height: 1.8125rem;
+  font-size: 0.69rem;
+  color: #969896;
+}
+/* line 37, ../sass/home.scss */
+.H_container .main .search .search-con .search-txt .search-box {
+  border: 0;
+  outline: 0;
+  height: 100%;
+}
+/* line 44, ../sass/home.scss */
+.H_container .main .search .search-result {
+  display: none;
+  position: absolute;
+  top: 2.72rem;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  background: #FFFFFF;
+}
+/* line 52, ../sass/home.scss */
+.H_container .main .search .search-result .hot-item {
+  overflow: hidden;
+  padding-top: 0.625rem;
+  padding-right: 1.25rem;
+  padding-bottom: 0.9375rem;
+  padding-left: 1.25rem;
+}
+/* line 55, ../sass/home.scss */
+.H_container .main .search .search-result .hot-item span {
+  float: left;
+  margin-top: 0.3125rem;
+  margin-right: 0.625rem;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0.25rem;
+  padding-right: 0.4375rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.4375rem;
+  -moz-border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  border-radius: 10rem;
+  color: darkred;
+  background-color: rgba(200, 100, 0, 0.6);
+}
+/* line 65, ../sass/home.scss */
+.H_container .main .search .search-result .hot-item .kewwords {
+  color: #F7F7F7;
+  background-color: #000000;
+}
+/* line 72, ../sass/home.scss */
+.H_container .main .search .search-result .search-item {
+  overflow: hidden;
+  padding-top: 0;
+  padding-right: 0.625rem;
+  padding-bottom: 0;
+  padding-left: 0.625rem;
+  font-size: 0.69rem;
+  height: 2.0625rem;
+  line-height: 2.0625rem;
+  border-top: 1px solid #ABABAB;
+}
+/* line 79, ../sass/home.scss */
+.H_container .main .search .search-result .search-item .serch-item-name {
+  float: left;
+  width: 60%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* line 86, ../sass/home.scss */
+.H_container .main .search .search-result .search-item .serch-item-price {
+  float: right;
+  color: red;
+}
+/* line 90, ../sass/home.scss */
+.H_container .main .search .search-result .search-item:hover {
+  color: #F7F7F7;
+  background-color: #000000;
+}
+/* line 101, ../sass/home.scss */
+.H_container .main .swiper-container {
+  height: 7.9375rem;
+  width: 100%;
+  border-top: 1px solid #ababab;
+  border-bottom: 1px solid #000000;
+}
+/* line 108, ../sass/home.scss */
+.H_container .main .swiper-container .swiper-slide, .H_container .main .swiper-container .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+/* line 116, ../sass/home.scss */
+.H_container .main .swiper-container .swiper-pagination .swiper-pagination-bullet {
+  background-color: white;
+}
+/* line 119, ../sass/home.scss */
+.H_container .main .swiper-container .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: red;
+}
+/* line 126, ../sass/home.scss */
+.H_container .main .goods {
+  width: 100%;
+}
+/* line 128, ../sass/home.scss */
+.H_container .main .goods li {
+  height: 6.844rem;
+  border-top: 1px solid #ababab;
+}
+/* line 133, ../sass/home.scss */
+.H_container .main .goods li .goods-show {
+  position: relative;
+  margin: 0.625rem auto;
+  width: 17.875rem;
+  height: 5.4375rem;
+}
+/* line 138, ../sass/home.scss */
+.H_container .main .goods li .goods-show dt {
+  float: left;
+  margin-right: 1rem;
+  width: 5.4rem;
+  height: 5.4rem;
+  border: 1px solid #999999;
+}
+/* line 144, ../sass/home.scss */
+.H_container .main .goods li .goods-show dt img {
+  width: 100%;
+  height: 100%;
+}
+/* line 149, ../sass/home.scss */
+.H_container .main .goods li .goods-show dd {
+  float: left;
+  width: 11rem;
+  font-size: 0.9rem;
+}
+/* line 153, ../sass/home.scss */
+.H_container .main .goods li .goods-show dd p {
+  margin-bottom: 0.6rem;
+}
+/* line 156, ../sass/home.scss */
+.H_container .main .goods li .goods-show dd .msg {
+  line-height: 1.2;
+}
+/* line 160, ../sass/home.scss */
+.H_container .main .goods li .goods-show dd .price .now-price {
+  font-size: 1.2rem;
+  color: #ef5883;
+}
+/* line 164, ../sass/home.scss */
+.H_container .main .goods li .goods-show dd .price .last-price {
+  display: inline-block;
+  padding-left: 0.625rem;
+  text-decoration: line-through;
+}
+/* line 170, ../sass/home.scss */
+.H_container .main .goods li .goods-show dd .discount {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+/* line 174, ../sass/home.scss */
+.H_container .main .goods li .goods-show dd .add {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 3.875rem;
+  height: 1.56rem;
+  text-align: center;
+  line-height: 1.56rem;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  background-color: #ef5883;
+  -moz-border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+}
+/* line 194, ../sass/home.scss */
+.H_container .tips {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  color: #FFFFFF;
+  margin-right: -6.25rem;
+  width: 12.5rem;
+  text-align: center;
+  height: 10.15625rem;
+  line-height: 10.15625rem;
+  -moz-border-radius: 3.125rem;
+  -webkit-border-radius: 3.125rem;
+  border-radius: 3.125rem;
+  background: url(../img/tipbg.gif) center no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}

@@ -1,0 +1,313 @@
+/* line 5, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* line 34, ../sass/_base.scss */
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 35, ../sass/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 36, ../sass/_base.scss */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+}
+
+/* line 41, ../sass/_base.scss */
+.container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/iconfont.eot");
+  src: url("../fonts/iconfont.eot?#iefix") format("embedded-opentype"), url("../fonts/iconfont.woff") format("woff"), url("../fonts/iconfont.ttf") format("truetype"), url("../fonts/iconfont.svg#iconfont") format("svg");
+}
+/* line 56, ../sass/_base.scss */
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 1, ../sass/_header.scss */
+header {
+  position: relative;
+  height: 2.75rem;
+  width: 100%;
+  line-height: 2.75rem;
+  text-align: center;
+  color: white;
+  background-color: #e4366b;
+}
+/* line 11, ../sass/_header.scss */
+header h1 {
+  width: 7.5rem;
+  height: 2.75rem;
+  margin: 0 auto;
+  font-size: 1.19rem;
+}
+/* line 16, ../sass/_header.scss */
+header h1 span {
+  float: left;
+  font-size: 0.875rem;
+}
+/* line 21, ../sass/_header.scss */
+header .icon {
+  position: absolute;
+  left: 5%;
+  top: 0;
+  color: #000000;
+}
+
+/* line 1, ../sass/_footer.scss */
+footer {
+  width: 100%;
+  height: 3.06rem;
+  border-top: 1px solid #ffffff;
+  background-color: #484850;
+}
+/* line 10, ../sass/_footer.scss */
+footer dl {
+  float: left;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  border-top: 0.156rem solid #484850;
+  color: #FFFFFF;
+}
+/* line 17, ../sass/_footer.scss */
+footer dl dt {
+  font-size: 1.5rem;
+  height: 50%;
+  line-height: 1.53rem;
+}
+/* line 23, ../sass/_footer.scss */
+footer dl dd a {
+  color: #FFFFFF;
+  font-size: 0.6875rem;
+}
+/* line 29, ../sass/_footer.scss */
+footer .active {
+  border-top-color: #e4366b;
+}
+
+/* line 7, ../sass/detail.scss */
+footer span {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  line-height: 3.06rem;
+  color: #F7F7F7;
+}
+/* line 14, ../sass/detail.scss */
+footer .active {
+  border-top: 4px solid #e4366b;
+}
+
+/* line 18, ../sass/detail.scss */
+.X_container {
+  width: 300%;
+}
+/* line 20, ../sass/detail.scss */
+.X_container .item {
+  float: left;
+  width: 33.3%;
+}
+/* line 25, ../sass/detail.scss */
+.X_container .intr .imgbox {
+  margin: 3.8125rem auto 1.5rem;
+  width: 13.75rem;
+  height: 10.5rem;
+  border: 1px solid #999999;
+}
+/* line 30, ../sass/detail.scss */
+.X_container .intr .imgbox img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 36, ../sass/detail.scss */
+.X_container .intr .main-txt {
+  margin: 0 auto;
+  width: 15.625rem;
+  line-height: 2.5rem;
+  text-align: center;
+  overflow: hidden;
+  -moz-border-radius: 0.3125rem;
+  -webkit-border-radius: 0.3125rem;
+  border-radius: 0.3125rem;
+  background-color: #e4366b;
+  color: #F7F7F7;
+}
+/* line 45, ../sass/detail.scss */
+.X_container .intr .main-txt span {
+  float: left;
+  margin-left: 1.25rem;
+}
+/* line 50, ../sass/detail.scss */
+.X_container .intr .main-info {
+  margin: 0 auto;
+  width: 80%;
+  line-height: 2.5625rem;
+  overflow: hidden;
+}
+/* line 55, ../sass/detail.scss */
+.X_container .intr .main-info span {
+  float: left;
+  margin-left: 0.625rem;
+}
+/* line 59, ../sass/detail.scss */
+.X_container .intr .main-info .last-price {
+  margin-left: 0;
+  text-decoration: line-through;
+}
+/* line 63, ../sass/detail.scss */
+.X_container .intr .main-info .buyers {
+  float: right;
+}
+/* line 68, ../sass/detail.scss */
+.X_container .info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+/* line 73, ../sass/detail.scss */
+.X_container .info .con {
+  position: relative;
+  flex: 1;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 80, ../sass/detail.scss */
+.X_container .info .con .main li p {
+  margin: 0.625rem auto;
+  width: 90%;
+  line-height: 1.875rem;
+  color: #343234;
+}
+/* line 86, ../sass/detail.scss */
+.X_container .info .con .main li img {
+  width: 100%;
+}
+/* line 93, ../sass/detail.scss */
+.X_container .photo {
+  height: 100%;
+}
+/* line 95, ../sass/detail.scss */
+.X_container .photo .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+/* line 98, ../sass/detail.scss */
+.X_container .photo .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+/* line 101, ../sass/detail.scss */
+.X_container .photo .swiper-wrapper .swiper-slide img {
+  height: 100%;
+  width: 100%;
+}
+/* line 109, ../sass/detail.scss */
+.X_container .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  line-height: 2.8125rem;
+  background-color: #333333;
+  color: #F7F7F7;
+  font-size: 1rem;
+  overflow: hidden;
+}
+/* line 119, ../sass/detail.scss */
+.X_container .header .txt {
+  float: left;
+  margin-left: 0.3125rem;
+}
+/* line 123, ../sass/detail.scss */
+.X_container .header .time {
+  float: left;
+  margin-left: 0.3125rem;
+}

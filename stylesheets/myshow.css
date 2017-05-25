@@ -1,0 +1,251 @@
+/* line 5, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/* line 34, ../sass/_base.scss */
+html, body, .container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 35, ../sass/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 36, ../sass/_base.scss */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+}
+
+/* line 41, ../sass/_base.scss */
+.container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/iconfont.eot");
+  src: url("../fonts/iconfont.eot?#iefix") format("embedded-opentype"), url("../fonts/iconfont.woff") format("woff"), url("../fonts/iconfont.ttf") format("truetype"), url("../fonts/iconfont.svg#iconfont") format("svg");
+}
+/* line 56, ../sass/_base.scss */
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 1, ../sass/_header.scss */
+header {
+  position: relative;
+  height: 2.75rem;
+  width: 100%;
+  line-height: 2.75rem;
+  text-align: center;
+  color: white;
+  background-color: #e4366b;
+}
+/* line 11, ../sass/_header.scss */
+header h1 {
+  width: 7.5rem;
+  height: 2.75rem;
+  margin: 0 auto;
+  font-size: 1.19rem;
+}
+/* line 16, ../sass/_header.scss */
+header h1 span {
+  float: left;
+  font-size: 0.875rem;
+}
+/* line 21, ../sass/_header.scss */
+header .icon {
+  position: absolute;
+  left: 5%;
+  top: 0;
+  color: #000000;
+}
+
+/* line 1, ../sass/_footer.scss */
+footer {
+  width: 100%;
+  height: 3.06rem;
+  border-top: 1px solid #ffffff;
+  background-color: #484850;
+}
+/* line 10, ../sass/_footer.scss */
+footer dl {
+  float: left;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  border-top: 0.156rem solid #484850;
+  color: #FFFFFF;
+}
+/* line 17, ../sass/_footer.scss */
+footer dl dt {
+  font-size: 1.5rem;
+  height: 50%;
+  line-height: 1.53rem;
+}
+/* line 23, ../sass/_footer.scss */
+footer dl dd a {
+  color: #FFFFFF;
+  font-size: 0.6875rem;
+}
+/* line 29, ../sass/_footer.scss */
+footer .active {
+  border-top-color: #e4366b;
+}
+
+/* line 6, ../sass/myshow.scss */
+header a {
+  color: #000000;
+}
+
+/* line 10, ../sass/myshow.scss */
+.M_container .main {
+  margin: 0 auto;
+  width: 80%;
+}
+/* line 14, ../sass/myshow.scss */
+.M_container .main .user {
+  height: 5.125rem;
+  margin: 1.875rem auto 2.5rem;
+}
+/* line 17, ../sass/myshow.scss */
+.M_container .main .user dt {
+  float: left;
+  margin-right: 1rem;
+  width: 5.125rem;
+  height: 5.125rem;
+  -moz-border-radius: 0.625rem;
+  -webkit-border-radius: 0.625rem;
+  border-radius: 0.625rem;
+  overflow: hidden;
+}
+/* line 24, ../sass/myshow.scss */
+.M_container .main .user dt img {
+  width: 100%;
+  height: 100%;
+}
+/* line 29, ../sass/myshow.scss */
+.M_container .main .user dd {
+  float: left;
+  height: 5.125rem;
+}
+/* line 32, ../sass/myshow.scss */
+.M_container .main .user dd p {
+  height: 50%;
+}
+/* line 34, ../sass/myshow.scss */
+.M_container .main .user dd p:first-child {
+  line-height: 2.56rem;
+}
+/* line 37, ../sass/myshow.scss */
+.M_container .main .user dd p a {
+  float: left;
+  margin-top: 0.9375rem;
+  margin-right: 1.34375rem;
+  width: 3.375rem;
+  height: 1.625rem;
+  text-align: center;
+  line-height: 1.625rem;
+  color: #FFFFFF;
+  -moz-border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #f25280;
+}
+/* line 55, ../sass/myshow.scss */
+.M_container .main .info {
+  background-color: white;
+  border: 1px solid #dedede;
+  -moz-border-radius: 0.5625rem;
+  -webkit-border-radius: 0.5625rem;
+  border-radius: 0.5625rem;
+}
+/* line 62, ../sass/myshow.scss */
+.M_container .main .info ul li {
+  padding: 0 0.875rem;
+  height: 2.75rem;
+  line-height: 2.75rem;
+  border-bottom: 1px solid #dedede;
+}
+/* line 67, ../sass/myshow.scss */
+.M_container .main .info ul li i {
+  float: right;
+}

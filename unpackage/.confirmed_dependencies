@@ -1,0 +1,180 @@
+{
+	"more.html": {
+		"href": "more.html",
+		"resources": [
+			"stylesheets/shopcar.css",
+			"stylesheets/lib/swiper-3.3.1.min.css",
+			"js/lib/zepto.min.js",
+			"js/lib/swiper-3.3.1.min.js",
+			"js/lib/iscroll-min.js",
+			"js/shopcar.js"
+		],
+		"refer": [
+			"myshow.html",
+			"login.html",
+			"home.html",
+			"list.html",
+			"shopcar.html",
+			"more.html"
+		],
+		"priority": 0
+	},
+	"list.html": {
+		"href": "list.html",
+		"resources": [
+			"stylesheets/home.css",
+			"stylesheets/lib/swiper-3.3.1.min.css",
+			"js/lib/zepto.min.js",
+			"js/lib/swiper-3.3.1.min.js",
+			"js/lib/iscroll-min.js",
+			"js/home.js",
+			"img/wait.gif"
+		],
+		"refer": [
+			"home.html",
+			"list.html",
+			"shopcar.html",
+			"myshow.html",
+			"more.html"
+		],
+		"priority": 0
+	},
+	"register.html": {
+		"href": "register.html",
+		"resources": [
+			"stylesheets/register.css",
+			"js/lib/zepto.min.js",
+			"js/register.js"
+		],
+		"refer": [
+			"myshow.html",
+			"login.html",
+			"home.html",
+			"list.html",
+			"shopcar.html",
+			"more.html"
+		],
+		"priority": 0
+	},
+	"myshow.html": {
+		"href": "myshow.html",
+		"resources": [
+			"stylesheets/myshow.css",
+			"js/lib/zepto.min.js",
+			"js/myshow.js",
+			"js/lib/iscroll-min.js",
+			"img/user.jpg"
+		],
+		"refer": [
+			"shopcar.html",
+			"home.html",
+			"list.html",
+			"myshow.html",
+			"more.html",
+			"register.html",
+			"login.html"
+		],
+		"priority": 0
+	},
+	"login.html": {
+		"href": "login.html",
+		"resources": [
+			"stylesheets/login.css",
+			"js/lib/zepto.min.js",
+			"js/login.js",
+			"img/radio.jpg",
+			"fonts/iconfont.woff"
+		],
+		"refer": [
+			"myshow.html",
+			"register.html",
+			"home.html",
+			"list.html",
+			"shopcar.html",
+			"more.html"
+		],
+		"priority": 0
+	},
+	"shopcar.html": {
+		"href": "shopcar.html",
+		"resources": [
+			"stylesheets/shopcar.css",
+			"js/lib/zepto.min.js",
+			"js/lib/iscroll-min.js",
+			"js/shopcar.js",
+			"img/shopcar.jpg",
+			"fonts/iconfont.woff"
+		],
+		"refer": [
+			"login.html",
+			"myshow.html",
+			"home.html",
+			"list.html",
+			"shopcar.html",
+			"more.html"
+		],
+		"priority": 0
+	},
+	"detail.html": {
+		"href": "detail.html",
+		"resources": [
+			"stylesheets/detail.css",
+			"js/lib/zepto.min.js",
+			"js/detail.js",
+			"img/wait.gif",
+			"js/lib/iscroll-min.js",
+			"stylesheets/lib/swiper-3.3.1.min.css",
+			"js/lib/swiper-3.3.1.min.js",
+			"fonts/iconfont.woff"
+		],
+		"refer": [
+			"shopcar.html"
+		],
+		"priority": 0
+	},
+	"home.html": {
+		"href": "home.html",
+		"resources": [
+			"stylesheets/home.css",
+			"stylesheets/lib/swiper-3.3.1.min.css",
+			"js/lib/zepto.min.js",
+			"js/lib/swiper-3.3.1.min.js",
+			"js/lib/iscroll-min.js",
+			"js/home.js",
+			"img/wait.gif",
+			"img/shopcar.jpg",
+			"img/tipbg.gif",
+			"fonts/iconfont.woff",
+			"detail.html"
+		],
+		"refer": [
+			"detail.html",
+			"home.html",
+			"list.html",
+			"shopcar.html",
+			"myshow.html",
+			"more.html"
+		],
+		"priority": 0
+	},
+	"index.html": {
+		"href": "index.html",
+		"resources": [
+			"stylesheets/index.css",
+			"stylesheets/lib/swiper-3.3.1.min.css",
+			"stylesheets/lib/animate.min.css",
+			"js/lib/zepto.min.js",
+			"js/lib/swiper-3.3.1.min.js",
+			"js/lib/swiper.animate.min.js",
+			"js/index.js",
+			"img/b3.jpg",
+			"img/b1.jpg",
+			"img/b2.jpg",
+			"home.html"
+		],
+		"refer": [
+			"home.html"
+		],
+		"priority": 0
+	}
+}
